@@ -1,0 +1,40 @@
+@charset "UTF-";
+
+/*
+    TUDO QUE EM HTML É ID EM CSS VIRA # (SO PODE UM ELEMENTO)
+    TUDO QUE EM HTML É CLASS EM CSS VIRA . (PODE VARIOS ELEMENTOS)
+*/
+
+body{
+    background-color: #D2A9D5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#804685;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #59315C;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color:#A85CAD;
+}
+
+.basico{
+    color: greenyellow;
+    font-weight:bolder;
+}
+
+.intermediario{
+    color: yellow;
+    font-weight:bolder;
+}
+
+.avancado{
+    color: red;
+    font-weight:bolder;
+}

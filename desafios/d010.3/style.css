@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image:url(imagens/386429.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 400px;
+    height: 400px;
+    margin-right: 300px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 10px;
+}
+
+input.bar{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 45px;
+    background-color: rgba(255, 255, 255, 0.252);
+    box-shadow: 0;
+    border-style: solid;
+}
+
+.bar-pass{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 45px;
+    background-color: rgba(255, 255, 255, 0.252);
+    box-shadow: 0;
+    border-style: solid;
+}
+
+.checkbox{
+    margin-top: 10px;
+    margin-left: 45px;
+    display: inline-block;
+}
+
+label{
+    font-size: 1em;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+}
+
+p{
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: rgba(255, 255, 255, 0.516);
+    width: 50px;
+    justify-content: center;
+    margin-left: 100px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p:hover{
+    background-color: white;
+    color: black;
+    animation-duration: 1s;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
