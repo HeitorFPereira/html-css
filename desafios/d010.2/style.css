@@ -126,6 +126,7 @@ strong{
     text-align: center;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .button:hover{
@@ -133,4 +134,9 @@ strong{
     animation-duration: 2s;
     background-color: #00909F;
     color: #0A192F;
+    text-decoration: underline;
 }
+
+
+
+
