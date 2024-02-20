@@ -58,15 +58,165 @@ ul > li:hover{
 
 main{
     margin-top: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
 }
 
 h2{
     width: 100;
 }
 
-.principal{
-    width: 500px;
-    height: 300px;
+.sobre{
+    display: flex;
 }
+
+.sobre > img{
+    width: 500px;
+}
+
+.sobre > p{
+    margin-left: 50px;
+    width: 500px;
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+span{
+    color: #2196F3;
+    font-size: 3em;
+    font-family: 'DESTAQUE';
+    cursor: pointer;
+}
+
+.xbox{
+    width: 35px;
+}
+
+.xbox:hover{
+    background-color: #6afe004a;
+    border-radius: 10px;
+    animation-duration: 10s;
+}
+
+.playstation{
+    width: 35px;
+}
+
+.playstation:hover{
+    background-color: #068ac771;
+    border-radius: 10px;
+    animation-duration: 10s;
+}
+
+.text1{
+    display: block;
+}
+
+.text1 > img:hover{
+    cursor: pointer;
+}
+
+.games{
+    display: flex;
+}
+
+.game1{
+    width: 350px;
+    text-align: justify;
+    margin-right: 84px;
+}
+
+.game1 > h2{
+    font-family: 'DESTAQUE';
+    color: #2196F3;
+    font-size: 2em;
+    text-align: center;
+}
+
+.game1 > p{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game1 > img{
+    width: 300px;
+}
+
+.game1 > span{
+    background-color: white;
+    font-size: 1.5em;
+    margin-left: 75px;
+    margin-top: 30px;
+    padding: 3px;
+    border-radius: 10px;
+    color: #2196F3;
+}
+
+.game1 > span:hover{
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.midia{
+    display: flex;
+}
+
+.contato{
+    display: grid;
+    width: 300px;
+    margin-right: 50px;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+.contato > h2{
+    font-family: 'DESTAQUE';
+    color: #2196F3;
+    font-size: 1.5em;
+}
+
+.mensagem{
+    height: 200px;
+}
+
+.button{
+    text-align: center;
+    background-color: #2196F3;
+    font-family: 'DESTAQUE';
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.social > h2{
+    font-family: 'DESTAQUE';
+    color: #2196F3;
+    font-size: 1.5em;
+}
+
+.social > img{
+    width: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p{
+    padding: 0;
+    margin: 0;
+}
+
