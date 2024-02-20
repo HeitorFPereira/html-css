@@ -207,6 +207,12 @@ input{
     cursor: pointer;
 }
 
+.social > a > img{
+    width: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
 footer{
     background-color: black;
     padding: 10px;
